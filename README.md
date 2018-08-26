@@ -7,6 +7,8 @@ To use the thinning function, simply copy the `thinning()` and `thinningIteratio
 
 Both `thinning.cpp` and `thinning.py` are similar, except that the former written in C++ and the latter in Python.
 
+So as to be friendly with both py2 and py3, the C expression used in `thinning.py` has been rewritten in Python and `weave.inline` has been replaced with `numba`.
+
 Contact
 -------
 Feel free to ask question and report bugs to nash [at] opencv-code [dot] com.
